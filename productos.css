@@ -1,0 +1,32 @@
+header {
+    background-color: rgba(250, 170, 250, 0.733);
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+    border-radius: 50%;
+}
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+   
+
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
