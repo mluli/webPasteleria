@@ -1,5 +1,6 @@
 header {
     background-color: rgba(250, 170, 250, 0.733);
+    padding: 20px 0 ;
 }
 
 .caja{
@@ -29,4 +30,41 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px; 
+}
+.productocup1{
+    width: 20%;
+}
+
+.productocup2{
+width: 25%;
+}
+.productocup3{
+ width: 30%;
+}
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.productos-descripcion{
+font-size: 18px;
+
+}
+.productos-precio {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+
 }
