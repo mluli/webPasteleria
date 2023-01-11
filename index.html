@@ -3,28 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <title>Pastelería Dulzuras y más</title>
-        <link rel="stylesheet" href="style-home.css"
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
    
     <body>
-        <img   id= "banner" src="banner/banner.jpg">
-       <div class="principal">
-           <h1>Sobre la Pasteleria Dulzuras y más</h1>
+     
+        <header>
+            <div class="caja">
+            <h1><img class= "logo" src="imagenes/dulzurasymas.png" ></h1>
+            <nav>
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            </nav>
+        </div>
+        </header>
+
+        <img   class= "banner" src="banner/banner.png">
+        <main>
+            <section class="principal">
+           <h2 class="titulo-principal">Sobre la Pasteleria Dulzuras y más</h2>
+           <img class="donas" src="imagenes/donut.jpg" alt="donnas">
            <p>Ubicada en San Miguel de Tucumán, la pasteleria <strong>Dulzuras y más </strong>trae para el mercado lo que hay de mejor para su antojo Dulce. Fundada en 2016, la Pasteleria Dulzuras y más ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar una experiencia de calidad a nuestros clientes"</strong></em></p>
            <p>Ofrecemos productos de primera calidad que están constantemente observando los cambios y movimiento en el mundo de los sabores, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
-       </div>
-        <div class="diferenciales">
-            <h2>
-            Diferenciales
+       </section>
 
-             </h2>
-            <ul>
-            <li class="items">Envio a Domicilio</li>
-            <li class="items">Atención personalizada</li>
-            </ul>
-            <img class="imgdiferenciales" src="diferenciales/diferenciales.jpg">
-        </div>
-   
+       <section clas="mapa">
+        <h3 class="titulo-principal">Nuestra Ubicación</h3>
+        <p>Nuestro establecimiento está ubicado en el corazon de la ciudad</p>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34784.869470159!2d-46.65499870427411!3d-23.593248407555798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sbr!4v1602972945026!5m2!1ses-419!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       </section>
+        <section class="diferenciales">
+            <h3 class="titulo-principal">Diferenciales</h3>
+
+            <div class="contenido-diferenciales">
+                <ul class="lista-diferenciales">
+                    <li class="items">Envio a Domicilio</li>
+                    <li class="items">Atención personalizada</li>
+                </ul><img class="imgdiferenciales" src="diferenciales/diferenciales.jpg">
+            
+            </div>
+            
+        </section>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bkEG-Oy0jAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+        </main>
+        
+        <footer>
+            <img src="imagenes/dulzurasymas.png" class="pie">
+            <p class="copy">&#169;Copyright Pastelería Dulzuras y más - 2022</p>
+        </footer>
     </body>
 </html>
